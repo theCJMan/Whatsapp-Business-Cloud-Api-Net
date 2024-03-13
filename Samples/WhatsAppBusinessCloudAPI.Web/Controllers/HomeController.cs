@@ -1420,7 +1420,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                     ViewBag.MediaId = fileInfo.fileWhatsAppID;
 				}
                 else
-                { // Do a Resumanble upload  ************* BUT ************** This is not presenting a Media ID so cannot be used after
+                { // Do a Resumanble upload  ************* BUT ************** This is not presenting a Media tID so cannot be used after
                     fileInfo.fileUploadMethod = "Resumable";
 				    //Upload file from Local Server to WhatsApp
 				    fileInfo = await fileToUpload.UploadFileToWhatsApp(fileInfo);

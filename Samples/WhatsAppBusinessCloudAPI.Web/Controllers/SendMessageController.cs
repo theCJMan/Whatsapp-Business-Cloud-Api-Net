@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.StaticFiles;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using WhatsappBusiness.CloudApi;
 using WhatsappBusiness.CloudApi.Configurations;
@@ -37,13 +38,17 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
 	public record SendTextPayload
     {
-        public required string ToNum { get; set; }
+		[Key]
+		public int tID { get; set; }
+		public required string ToNum { get; set; }
         public string Message { get; set; } = "Hello";
         public bool PreviewUrl { get; set; } = false;
 	}
 
 	public record WhatsAppMedia
 	{
+		[Key]
+		public int tID { get; set; }
 		public string Type { get; set; }
 		public string URL { get; set; }
 		public string ID { get; set; }
@@ -52,6 +57,8 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
     public record WhatsappTemplate
     {
+		[Key]
+		public int tID { get; set; }
 		public string Name { get; set; }
 		public List<string> Params { get; set; }
 	}
@@ -64,7 +71,9 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
     /// </summary>
 	public record SendWhatsAppPayload
     {
-        public SendTextPayload SendText { get; set; }
+		[Key]
+		public int tID { get; set; }
+		public SendTextPayload SendText { get; set; }
 		public enumMessageType MessageType { get; set; }
 		public WhatsAppMedia Media { get; set; }
         public WhatsappTemplate Template { get; set; }
@@ -258,7 +267,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                 {
                     case enumMessageType.Audio:
                         if (!string.IsNullOrWhiteSpace(payload.Media.ID))
-                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the ID returned
+                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the tID returned
                             AudioMessageByIdRequest audioMessage = new AudioMessageByIdRequest();
                             audioMessage.To = payload.SendText.ToNum;
                             audioMessage.Audio = new MediaAudio();
@@ -279,7 +288,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                     case enumMessageType.Doc:
                         if (!string.IsNullOrWhiteSpace(payload.Media.ID))
-                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the ID returned
+                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the tID returned
                             DocumentMessageByIdRequest documentMessage = new DocumentMessageByIdRequest();
                             documentMessage.To = payload.SendText.ToNum;
                             documentMessage.Document = new MediaDocument();
@@ -302,7 +311,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                     case enumMessageType.Image:
                         if (!string.IsNullOrWhiteSpace(payload.Media.ID))
-                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the ID returned
+                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the tID returned
                             ImageMessageByIdRequest imageMessage = new ImageMessageByIdRequest();
                             imageMessage.To = payload.SendText.ToNum;
                             imageMessage.Image = new MediaImage();
@@ -324,12 +333,12 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                         break;
 
                     //case "STICKER":
-                    //    if (!string.IsNullOrWhiteSpace(payload.Media.ID))
-                    //    {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the ID returned
+                    //    if (!string.IsNullOrWhiteSpace(payload.Media.tID))
+                    //    {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the tID returned
                     //        StickerMessageByIdRequest stickerMessage = new StickerMessageByIdRequest();
                     //        stickerMessage.To = payload.SendText.ToNum;
                     //        stickerMessage.Sticker = new MediaSticker();
-                    //        stickerMessage.Sticker.Id = payload.Media.ID;
+                    //        stickerMessage.Sticker.Id = payload.Media.tID;
 
                     //        results = await _whatsAppBusinessClient.SendStickerMessageByIdAsync(stickerMessage);
                     //    }
@@ -346,7 +355,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                     case enumMessageType.Video:
                         if (!string.IsNullOrWhiteSpace(payload.Media.ID))
-                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the ID returned
+                        {  // Usaing IDs is much better, Upload the file to WhatsApp and then use the tID returned
                             VideoMessageByIdRequest videoMessage = new VideoMessageByIdRequest();
                             videoMessage.To = payload.SendText.ToNum;
                             videoMessage.Video = new MediaVideo();

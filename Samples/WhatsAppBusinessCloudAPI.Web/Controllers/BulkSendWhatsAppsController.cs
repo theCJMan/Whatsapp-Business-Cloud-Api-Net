@@ -203,15 +203,15 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                         sendWhatsAppPayload.Media = new WhatsAppMedia();
                         if (wUpContact.MsgType.Cap) { sendWhatsAppPayload.Media.Caption = wUpContact.WupAttCap; }
 
-                        // Build the unique list of attachments, if a new attachment is found, upload it and get the ID
+                        // Build the unique list of attachments, if a new attachment is found, upload it and get the tID
                         if (uniqueAttWithMediaID.ContainsKey(wUpContact.WupAtt))
                         {
-                            sendWhatsAppPayload.Media.ID = uniqueAttWithMediaID[wUpContact.WupAtt]; // Retrieve the corresponding ID                                                                             
+                            sendWhatsAppPayload.Media.ID = uniqueAttWithMediaID[wUpContact.WupAtt]; // Retrieve the corresponding tID                                                                             
                         }
                         else
                         {
                             FileInfo uploadMediaPayload = new();
-                            // wUpAtt is not in the Dictionary, so we will upload the Media to Whatsapp and get the Media ID for use
+                            // wUpAtt is not in the Dictionary, so we will upload the Media to Whatsapp and get the Media tID for use
                             uploadMediaPayload.fileUploadMethod = "Normal";
                             uploadMediaPayload.filePath = Path.Combine(_environment.WebRootPath, fileManagementController._localServerPaths.LocalFileUploadPath);
                             uploadMediaPayload.fileName = wUpContact.WupAtt;

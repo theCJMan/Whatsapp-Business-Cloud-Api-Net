@@ -175,7 +175,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 				}
 				else // Resumable upload generates header file response to be used for creating message templates
 				{
-					// ********* Resumable Upload is not for WhatsApp Purposes, It does not return a WhatsApp Media ID *********
+					// ********* Resumable Upload is not for WhatsApp Purposes, It does not return a WhatsApp Media tID *********
 					var resumableUploadMediaResult = await _whatsAppBusinessClient.CreateResumableUploadSessionAsync(fileInfo.fileSize, fileInfo.fileContentType, fileInfo.fileName);
 
 					if (resumableUploadMediaResult is not null)
