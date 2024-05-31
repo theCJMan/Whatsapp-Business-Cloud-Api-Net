@@ -1,0 +1,12 @@
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\bin\Debug\net8.0\UploadFilesLibrary.deps.json
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\bin\Debug\net8.0\UploadFilesLibrary.dll
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\bin\Debug\net8.0\UploadFilesLibrary.pdb
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.csproj.AssemblyReference.cache
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.AssemblyInfoInputs.cache
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.AssemblyInfo.cs
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.dll
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\refint\UploadFilesLibrary.dll
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\UploadFilesLibrary.pdb
+C:\Users\thecj\source\repos\TC\UploadFilesLibrary\obj\Debug\net8.0\ref\UploadFilesLibrary.dll

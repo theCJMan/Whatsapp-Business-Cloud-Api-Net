@@ -1,0 +1,13 @@
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\bin\Debug\net8.0\WhatsappBusiness.CloudApi.deps.json
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\bin\Debug\net8.0\WhatsappBusiness.CloudApi.dll
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\bin\Debug\net8.0\WhatsappBusiness.CloudApi.pdb
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.csproj.AssemblyReference.cache
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.AssemblyInfoInputs.cache
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.AssemblyInfo.cs
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.csproj.CoreCompileInputs.cache
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.sourcelink.json
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.dll
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\refint\WhatsappBusiness.CloudApi.dll
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\WhatsappBusiness.CloudApi.pdb
+C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\obj\Debug\net8.0\ref\WhatsappBusiness.CloudApi.dll

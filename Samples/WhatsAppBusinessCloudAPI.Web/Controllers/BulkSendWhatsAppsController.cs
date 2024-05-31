@@ -1,68 +1,70 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.StaticFiles;
+﻿using CsvHelper;
+using Microsoft.AspNetCore.Mvc;
+using SharedLibrary;
 using System.Data;
 using System.Globalization;
-using CsvHelper;
 using WhatsappBusiness.CloudApi.Interfaces;
-using WhatsappBusiness.CloudApi.Configurations;
-using WhatsAppBusinessCloudAPI.Web.Extensions.Alerts;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using WhatsappBusiness.CloudApi.Messages.Requests;
-using WhatsappBusiness.CloudApi.Response;
-using WhatsappBusiness.CloudApi.Webhook;
-using static System.Net.Mime.MediaTypeNames;
-using System;
+using WhatsAppBusinessCloudAPI.Web.Data;
 
 namespace WhatsAppBusinessCloudAPI.Web.Controllers
 {
-	public class BulkSendWhatsAppsController : ControllerBase
+    public class BulkSendWhatsAppsController : ControllerBase
     {
         private readonly IWhatsAppBusinessClient _whatsAppBusinessClient;
-		private readonly ILogger<HomeController> _logger;		
-		private readonly IWebHostEnvironment _environment;
+        private readonly ILogger<HomeController> _logger;
+        private readonly IWebHostEnvironment _environment;
         private readonly List<MessageType> _msgTypes;
+        private readonly ISqlDataAccess _dataAccess;
 
-		public record WUpContactRecord
+        public record WUpContactRecord
         {
-			public string Order { get; set; }
-			public string FirstName { get; set; }
-			public string LastName { get; set; }
-			public string Email { get; set; }
-			public string WupNum { get; set; }
-			public MessageType MsgType { get; set; }
-			public string WupMsg { get; set; }
-			public string Template { get; set; }
-			public string Params { get; set; }
-			public string WupAtt {  get; set; }
-			public string WupAttCap { get; set; }
-			public string SendResult { get; set; }
-		}
-		        
-		public BulkSendWhatsAppsController(ILogger<HomeController> logger, IWhatsAppBusinessClient whatsAppBusinessClient, IWebHostEnvironment environment)
-		{
-			_logger = logger;
-			_whatsAppBusinessClient = whatsAppBusinessClient;			
-			_environment = environment;
-           
-            // These are the implemente Message Types that BulkSend can handle
-			_msgTypes = new List<MessageType>();
-            _msgTypes.Add(new MessageType(enumMessageType.Audio,false,true,false));
-			_msgTypes.Add(new MessageType(enumMessageType.Doc, true,true,true));
-			_msgTypes.Add(new MessageType(enumMessageType.Image, true,true,true));
-            _msgTypes.Add(new MessageType(enumMessageType.Text,true, false,false));
-			_msgTypes.Add(new MessageType(enumMessageType.Video,true, true,true));
-		}
+            public string Order { get; set; }
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public string Email { get; set; }
+            public string WupNum { get; set; }
+            public MessageType MsgType { get; set; }
+            public string WupMsg { get; set; }
+            public string Template { get; set; }
+            public string Params { get; set; }
+            public string WupAtt { get; set; }
+            public string WupAttCap { get; set; }
+            public string SendResult { get; set; }
+        }
+        public record WUpMsgSent
+        {
+            public int ContactTID { get; set; }
+            public string WAMid { get; set; }
+            public int MsgStatus { get; set; } = 1;
+        }
 
-		/// <summary>
-		/// This helps with replacing Pipes  "|FN|", "|LN|", "|Email|", "|WupNum|"  with the data in the file
-		/// </summary>
-		/// <param name="record"></param>
-		/// <returns></returns>
-		private WUpContactRecord ReplaceRecordData(WUpContactRecord record)
+        public BulkSendWhatsAppsController(ILogger<HomeController> logger, IWhatsAppBusinessClient whatsAppBusinessClient,
+            IWebHostEnvironment environment, ISqlDataAccess dataAccess)
+        {
+            _logger = logger;
+            _whatsAppBusinessClient = whatsAppBusinessClient;
+            _environment = environment;
+            _dataAccess = dataAccess;
+
+            // These are the implemente Message Types that BulkSend can handle
+            _msgTypes = new List<MessageType>();
+            _msgTypes.Add(new MessageType(enumMessageType.Audio, false, true, false));
+            _msgTypes.Add(new MessageType(enumMessageType.Doc, true, true, true));
+            _msgTypes.Add(new MessageType(enumMessageType.Image, true, true, true));
+            _msgTypes.Add(new MessageType(enumMessageType.Text, true, false, false));
+            _msgTypes.Add(new MessageType(enumMessageType.Video, true, true, true));
+        }
+
+        /// <summary>
+        /// This helps with replacing Pipes  "|FN|", "|LN|", "|Email|", "|WupNum|"  with the data in the file
+        /// </summary>
+        /// <param name="record"></param>
+        /// <returns></returns>
+        private WUpContactRecord ReplaceRecordData(WUpContactRecord record)
         {   // Go through each property value, and check if any of the replacement strings can be found, and replace it
 
-			string[] findArray = { "|FN|", "|LN|", "|Email|", "|WupNum|" };
-			string[] replacementArray = {record.FirstName, record.LastName, record.Email, record.WupNum };
+            string[] findArray = { "|FN|", "|LN|", "|Email|", "|WupNum|" };
+            string[] replacementArray = { record.FirstName, record.LastName, record.Email, record.WupNum };
 
             object propertyValue;
             string valToCheck;
@@ -73,14 +75,14 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                 propertyValue = property.GetValue(record);
                 valToCheck = propertyValue?.ToString();
-				// Skip to the next property if the value to check is null
-				if (valToCheck == null)
-				{
-					continue;
-				}
+                // Skip to the next property if the value to check is null
+                if (valToCheck == null)
+                {
+                    continue;
+                }
 
-				// Iterate over each find string and corresponding replacement
-				for (int i = 0; i < findArray.Length; i++)
+                // Iterate over each find string and corresponding replacement
+                for (int i = 0; i < findArray.Length; i++)
                 {
                     // Check if the find string exists in myStr
                     if (valToCheck.Contains(findArray[i]))
@@ -97,29 +99,29 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
             return record;
 
-		}
+        }
 
         /// <summary>
         /// This maps String to EnumMessageType
         /// </summary>
         /// <param name="MyType"></param>
         /// <returns></returns>
-        private MessageType MapStringToMessageType (string MyType)
+        private MessageType MapStringToMessageType(string MyType)
         {
             try
             {
                 enumMessageType TypeToFind = new();
                 var ret = new MessageType(enumMessageType.Text, true, false, false);
 
-				// Convert String to Actual Enum Type
-				if (MyType.Contains("Audio", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Audio; }
-				else if (MyType.Contains("Image", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Image; }
-				else if (MyType.Contains("Doc", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Doc; }
-				else if (MyType.Contains("Video", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Video; }
-				else TypeToFind = enumMessageType.Text;
+                // Convert String to Actual Enum Type
+                if (MyType.Contains("Audio", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Audio; }
+                else if (MyType.Contains("Image", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Image; }
+                else if (MyType.Contains("Doc", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Doc; }
+                else if (MyType.Contains("Video", StringComparison.CurrentCultureIgnoreCase)) { TypeToFind = enumMessageType.Video; }
+                else TypeToFind = enumMessageType.Text;
 
                 // Loop through _msgTypes to find the correct settings to return
-				foreach (MessageType i in _msgTypes)
+                foreach (MessageType i in _msgTypes)
                 {
                     if (i.Type == TypeToFind) { ret = i; break; };
                 }
@@ -129,11 +131,11 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
             catch (Exception ex)
             {
                 // Error occured, return Text
-				_logger.LogError(ex, ex.Message);
+                _logger.LogError(ex, ex.Message);
                 return new MessageType(enumMessageType.Text, true, false, false);
 
-			}
-		}
+            }
+        }
 
         /// <summary>
         /// 1. Read the CSV file and go through each record
@@ -150,7 +152,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
             try
             {
                 // Return String
-                List<string> retWAMID = new List<string>();
+                List<string> retWAMID = new();
 
                 // Read the CSV File into a DT
                 DataTable dataTable = ReadCSVFile(fileInfo);
@@ -160,17 +162,19 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                 FileManagmentController fileManagementController = new(_logger, _whatsAppBusinessClient, _environment);
 
                 // We will build a unique list of Attachments so we can upload the Attachments to WhatsApp and use the IDs
-                Dictionary<string, string> uniqueAttWithMediaID = new Dictionary<string, string>();
-
-                //WUpContactRecord wUpContact = new WUpContactRecord();
+                Dictionary<string, string> uniqueAttWithMediaID = new();
 
                 foreach (DataRow row in dataTable.Rows)
                 {
                     // Better to start clean everytime reinitiate the Vatriables
                     SendWhatsAppPayload sendWhatsAppPayload = new();
-                    WUpContactRecord wUpContact = new WUpContactRecord();
+                    WUpContactRecord wUpContact = new();
+
+                    //Build the contact model so we can save it to SQL
+                    ContactModel contactModel = new();
+
                     // First test Key elements, if any error continue to next record
-                    wUpContact.WupNum = sendMessageController.PrepNumber(row["WUp Num"].ToString());    // Prep the number and return the prepped number
+                    wUpContact.WupNum = contactModel.Tel1 = sendMessageController.PrepNumber(row["WUp Num"].ToString());    // Prep the number and return the prepped number
                     if (wUpContact.WupNum == "-1")
                     {   // Error on the number, bounce to next record
                         row["SendResult"] = "ERROR: Not a WhatsApp number?";
@@ -179,15 +183,20 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                     // Get rest of the Data for this record
                     // string order = row["Order"].ToString();
-                    wUpContact.FirstName = row["First Name"].ToString();
-                    wUpContact.LastName = row["Last Name"].ToString();
-                    wUpContact.Email = row["Email"].ToString();
+                    wUpContact.FirstName = contactModel.firstName = row["First Name"].ToString();
+                    wUpContact.LastName = contactModel.lastName = row["Last Name"].ToString();
+                    wUpContact.Email = contactModel.Email1 = row["Email"].ToString();
                     wUpContact.WupMsg = row["WUp Msg"].ToString();
                     wUpContact.Template = row["Template"].ToString();
                     wUpContact.Params = row["Params"].ToString();
                     wUpContact.WupAtt = row["Att"].ToString();
                     wUpContact.WupAttCap = row["WUp Att Cap"].ToString();
                     wUpContact.SendResult = row["SendResult"].ToString();
+
+                    WUpMsgSent sentMsg = new();
+
+                    // Save the Contact and grab the tID
+                    sentMsg.ContactTID = await _dataAccess.ExecSP_RetSingleValue<int>("dbo.spContact_Update", "DatabaseConnection", contactModel);
 
                     // Have to set this to null else the replacement Method below fails: will reset to correct value later
                     wUpContact.MsgType = null;
@@ -250,8 +259,6 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                         };
                     }
 
-                    // Ready to start the sending
-                    string WAMIds = "";
                     // Prep to send the WhatsApp
                     sendWhatsAppPayload.SendText = new SendTextPayload()
                     {
@@ -261,11 +268,11 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
 
                     if (wUpContact.MsgType.Type == enumMessageType.Text)
                     {// Text messages is a simple send (with or without [params or templates]) NO attachments
-                        WAMIds = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TextAsync(sendWhatsAppPayload)).Value);
+                        sentMsg.WAMid = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TextAsync(sendWhatsAppPayload)).Value);
                     }
                     else if (!wUpContact.MsgType.Template || (wUpContact.MsgType.Template && wUpContact.Template.Length == 0))
                     {// NOT a template do a normal Media send (Audio, Doc, Image, Video)
-                        WAMIds = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_MediaAsync(sendWhatsAppPayload)).Value);
+                        sentMsg.WAMid = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_MediaAsync(sendWhatsAppPayload)).Value);
 
                     }
                     else
@@ -274,21 +281,24 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
                         switch (wUpContact.MsgType.Type)
                         {
                             case enumMessageType.Doc:
-								WAMIds = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateDoc_ParameterAsync(sendWhatsAppPayload)).Value);
-								break;
+                                sentMsg.WAMid = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateDoc_ParameterAsync(sendWhatsAppPayload)).Value);
+                                break;
 
                             case enumMessageType.Image:
-                                WAMIds = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateImage_ParameterAsync(sendWhatsAppPayload)).Value);
+                                sentMsg.WAMid = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateImage_ParameterAsync(sendWhatsAppPayload)).Value);
                                 break;
 
                             case enumMessageType.Video:
-                                WAMIds = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateVideo_ParameterAsync(sendWhatsAppPayload)).Value);
+                                sentMsg.WAMid = sendMessageController.GetWAMId((await sendMessageController.SendWhatsApp_TemplateVideo_ParameterAsync(sendWhatsAppPayload)).Value);
                                 break;
                         }
                     }
 
-                    row["SendResult"] = WAMIds;
-                    retWAMID.Add($"{wUpContact.WupNum} - {WAMIds}");
+                    row["SendResult"] = sentMsg.WAMid;
+                    retWAMID.Add($"{wUpContact.WupNum} - {sentMsg.WAMid}");
+
+                    // Save Sent message IDs to DB
+
 
                 }
 
@@ -299,14 +309,14 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
             catch
             (Exception ex)
             {
-				_logger.LogError(ex, ex.Message);
-				return Ok(-1);
-			}
+                _logger.LogError(ex, ex.Message);
+                return Ok(-1);
+            }
         }
 
         private static DataTable ReadCSVFile(FileInfo fileInfo)
         {
-            DataTable dataTable = new DataTable();
+            DataTable dataTable = new();
 
             try
             {
@@ -344,46 +354,46 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
             return dataTable;
         }
 
-		private static void WriteDataTableToCSV(DataTable dataTable, FileInfo fileInfo)
-		{
-			StreamWriter sw = new StreamWriter(fileInfo.filePath, false);
-			//headers
-			for (int i = 0; i < dataTable.Columns.Count; i++)
-			{
-				sw.Write(dataTable.Columns[i]);
-				if (i < dataTable.Columns.Count - 1)
-				{
-					sw.Write(",");
-				}
-			}
-			sw.Write(sw.NewLine);
-			foreach (DataRow dr in dataTable.Rows)
-			{
-				for (int i = 0; i < dataTable.Columns.Count; i++)
-				{
-					if (!Convert.IsDBNull(dr[i]))
-					{
-						string value = dr[i].ToString();
-						if (value.Contains(','))
-						{
-							value = System.String.Format("\"{0}\"", value);
-							sw.Write(value);
-						}
-						else
-						{
-							sw.Write(dr[i].ToString());
-						}
-					}
-					if (i < dataTable.Columns.Count - 1)
-					{
-						sw.Write(",");
-					}
-				}
-				sw.Write(sw.NewLine);
-			}
-			sw.Close();
-		}
+        private static void WriteDataTableToCSV(DataTable dataTable, FileInfo fileInfo)
+        {
+            StreamWriter sw = new(fileInfo.filePath, false);
+            //headers
+            for (int i = 0; i < dataTable.Columns.Count; i++)
+            {
+                sw.Write(dataTable.Columns[i]);
+                if (i < dataTable.Columns.Count - 1)
+                {
+                    sw.Write(",");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dataTable.Rows)
+            {
+                for (int i = 0; i < dataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(','))
+                        {
+                            value = System.String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dataTable.Columns.Count - 1)
+                    {
+                        sw.Write(",");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
-	}
+    }
 
 }

@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WhatsAppBusinessCloudAPI.Web
+build_property.RootNamespace = WhatsAppBusinessCloudAPI.Web
+build_property.ProjectDir = C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\Samples\WhatsAppBusinessCloudAPI.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\Samples\WhatsAppBusinessCloudAPI.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/Analytics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmFseXRpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/BulkSendWhatsApps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdWxrU2VuZFdoYXRzQXBwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/ConversationAnalytics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb252ZXJzYXRpb25BbmFseXRpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/CreateQRCodeMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVRUkNvZGVNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/QRCodeMessageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRUkNvZGVNZXNzYWdlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/Security.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN1cml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppContactMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBDb250YWN0TWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppFlowMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBGbG93TWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppInteractiveMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBJbnRlcmFjdGl2ZU1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppLocationMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBMb2NhdGlvbk1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppMediaMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBNZWRpYU1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppTemplateMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBUZW1wbGF0ZU1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/SendWhatsAppTextMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW5kV2hhdHNBcHBUZXh0TWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Home/UploadMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGxvYWRNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_MainNavigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9NYWluTmF2aWdhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9TdHlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/AdminLTE/_TopNavigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTFRFXF9Ub3BOYXZpZ2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/_ToastStatusMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub2FzdFN0YXR1c01lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thecj/Source/Repos/Whatsapp-Business-Cloud-Api-Net/Samples/WhatsAppBusinessCloudAPI.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8e89q5sw3k

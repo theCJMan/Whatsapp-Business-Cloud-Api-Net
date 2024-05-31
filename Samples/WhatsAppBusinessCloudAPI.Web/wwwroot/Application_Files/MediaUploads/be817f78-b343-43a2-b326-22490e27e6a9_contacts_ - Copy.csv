@@ -1,0 +1,5 @@
+﻿Order,First Name,Last Name,Email,Wup Num,Wup Msg,Template,Params,Att,WUp Att Cap,SendResult
+1,Cornelius1,Mostert,J1@co.za,790995412,,comp_intro_optout,|FN|#DAFP1,vid1.mp4,See the Video,
+1,Cornelius2,Mostert,J2@co.za,27790995412,,comp_intro_optout,|LN|#DAFP2,vid1.mp4,See the Video,
+1,Cornelius3,Mostert,J3@co.za,0790995412,,comp_intro_optout,|WupNum|#DAFP3,vid1.mp4,See the Video,
+1,DC,Spam,J4@co.za,+1 (405) 938-8231,,comp_intro_optout,|Email|#DAFP4,vid1.mp4,See the Video,

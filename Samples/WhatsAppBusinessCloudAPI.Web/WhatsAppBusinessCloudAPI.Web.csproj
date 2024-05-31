@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>57d7e01b-64ef-46f3-9a6a-0cce0df0e7b7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\SharedLibrary\SharedLibrary.csproj" />
     <ProjectReference Include="..\..\WhatsappBusiness.CloudApi\WhatsappBusiness.CloudApi.csproj" />
   </ItemGroup>
 

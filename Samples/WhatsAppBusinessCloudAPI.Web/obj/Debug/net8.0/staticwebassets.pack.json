@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WhatsAppBusinessCloudAPI.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WhatsAppBusinessCloudAPI.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\06f14de4-f397-496b-ad17-8e465cc19a75_contacts_ - Copy.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\06f14de4-f397-496b-ad17-8e465cc19a75_contacts_ - Copy.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\1dd8c45e-4b18-4973-8f7a-96eb82dea557_doc1.pdf",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\1dd8c45e-4b18-4973-8f7a-96eb82dea557_doc1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\2c302495-74e5-431e-8d26-66ede2931277_contacts_ - Copy.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\2c302495-74e5-431e-8d26-66ede2931277_contacts_ - Copy.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\Audio1.mp3",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\Audio1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\Img1.jpg",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\Img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\a0036bfc-f37b-4f9b-a394-6bc6efb34128_doc1.pdf",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\a0036bfc-f37b-4f9b-a394-6bc6efb34128_doc1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\be817f78-b343-43a2-b326-22490e27e6a9_contacts_ - Copy.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\be817f78-b343-43a2-b326-22490e27e6a9_contacts_ - Copy.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\bfede93c-d8e2-44f0-85a0-744a7a85b93c_contacts_MixMsg.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\bfede93c-d8e2-44f0-85a0-744a7a85b93c_contacts_MixMsg.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\ce9fbfd6-55ff-48d9-bebf-eb5bdd987467_contacts_MixMsg.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\ce9fbfd6-55ff-48d9-bebf-eb5bdd987467_contacts_MixMsg.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\contacts_ - Copy.xlsx",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\contacts_ - Copy.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\contacts_DocOnly.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\contacts_DocOnly.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\contacts_MixMsg.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\contacts_MixMsg.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\contacts_TextOnly.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\contacts_TextOnly.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\dc2ea58d-5afc-4eac-b422-c6796af68fa7_contacts_MixMsg.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\dc2ea58d-5afc-4eac-b422-c6796af68fa7_contacts_MixMsg.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\doc1.pdf",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\doc1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\e4a71ccc-84c0-4be6-b50d-2091b4e7a764_contacts_MixMsg.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\e4a71ccc-84c0-4be6-b50d-2091b4e7a764_contacts_MixMsg.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\f7b6e165-c095-489d-ad62-86f7dde1aeea_contacts_ - Copy.csv",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\f7b6e165-c095-489d-ad62-86f7dde1aeea_contacts_ - Copy.csv"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\vid1.mp4",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\vid1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\Application_Files\\MediaUploads\\~$contacts_ - Copy.xlsx",
+      "PackagePath": "staticwebassets\\Application_Files\\MediaUploads\\~$contacts_ - Copy.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\bootstrap\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\bootstrap\\bootstrap5.0.2.bundle.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap5.0.2.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\bootstrap\\bootstrap5.0.2.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap5.0.2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\bootstrap\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\bootstrap\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\js\\swagger-collapse.js",
+      "PackagePath": "staticwebassets\\js\\swagger-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\admin-lte\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\lib\\admin-lte\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\admin-lte\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\lib\\admin-lte\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\select2-bootstrap-theme\\select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2-bootstrap-theme\\select2-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\wwwroot\\whatsapp-logo.png",
+      "PackagePath": "staticwebassets\\whatsapp-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WhatsAppBusinessCloudAPI.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WhatsAppBusinessCloudAPI.Web.props",
+      "PackagePath": "build\\WhatsAppBusinessCloudAPI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WhatsAppBusinessCloudAPI.Web.props",
+      "PackagePath": "buildMultiTargeting\\WhatsAppBusinessCloudAPI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WhatsAppBusinessCloudAPI.Web.props",
+      "PackagePath": "buildTransitive\\WhatsAppBusinessCloudAPI.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

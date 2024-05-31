@@ -1,0 +1,3 @@
+﻿Order,First Name,Last Name,Email,Wup Num,MSGType,Wup Msg,Template,Params,Att,WUp Att Cap,SendResult
+1,Cornelius8,Mostert,J3@co.za,0790995412,Doc - N/T,Doc Template message,q_and_a,|FN|,doc1.pdf,,
+1,Cornelius4,Mostert,J3@co.za,0790995412,Doc - N/T,|FN| Doc only for |WupNum|. no template,,,doc1.pdf,,

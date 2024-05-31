@@ -19,7 +19,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
         private readonly IWhatsAppBusinessClient _whatsAppBusinessClient;
         private readonly WhatsAppBusinessCloudApiConfig _whatsAppConfig;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private string VerifyToken = "<YOUR VERIFY TOKEN STRING>";
+        private string VerifyToken = "8:Xxa,4qZ0U6PG$1C05SN>3Y80}9H#D1=FE04<k5/4NmJ2VqjZeGn+09htdPmDj6AMB6ds,5O3b1wOf7%4ZKTrhQR+WyggP2]&p6F40Dp|LtK1&XiI38c)]0LUW?YCS773l.u@x:*y-kA3T@^mPB%5J>zG1B19f![8:9<49n{3z(7e7A_J7L0|M5vUX?CH5WH4nx8I;5OE3_K=5F2Vcg622$M{6Y2-Ru9}8Vr6987o1[8R96IhTiNEl2394b(QQp";
         private List<TextMessage> textMessage;
         private List<AudioMessage> audioMessage;
         private List<ImageMessage> imageMessage;
@@ -56,6 +56,7 @@ namespace WhatsAppBusinessCloudAPI.Web.Controllers
             {
                 return Forbid("VerifyToken doesn't match");
             }
+
             return Ok(hubChallenge);
         }
 

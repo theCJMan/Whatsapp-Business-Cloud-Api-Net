@@ -1,0 +1,10 @@
+﻿Order,First Name,Last Name,Email,Wup Num,MSGType,Wup Msg,Template,Params,Att,WUp Att Cap,SendResult
+1,Cornelius1,Mostert,J1@co.za,790995412,Audio,Audio Only. This should not display,,,Audio1.mp3,Audio does not have a Caption,
+1,Cornelius3,Mostert,J3@co.za,0790995412,Image - N/T,Image Only,,,Img1.jpg,Image does have a caption,
+1,Cornelius4,Mostert,J3@co.za,0790995412,Text - N/T,|FN| Text only for |WupNum|. \n no template,,,,,
+1,Cornelius5,Mostert,J3@co.za,0790995412,Video - N/T,Video only for |Email|,,,vid1.mp4,See the Video,
+1,Cornelius7,Mostert,J3@co.za,0790995412,Image - N/T,Image with Template,product_anouncement,|FN|#The Glen#movie night#20th March#R100,Img1.jpg,Template Image does have a caption,
+1,Cornelius8,Mostert,J3@co.za,0790995412,Text - N/T,Text Template message,shipping_confirmation,|FN|#6,,,
+1,Cornelius9,Mostert,J3@co.za,0790995412,Video - N/T,This is a Vid Template,comp_intro_optout,|FN| |LN|#DAFP,vid1.mp4,See the Video,
+1,Cornelius8,Mostert,J3@co.za,790995412,Doc - N/T,Doc Template message,q_and_a,|FN|,doc1.pdf,,
+1,Cornelius4,Mostert,J3@co.za,790995412,Doc - N/T,|FN| Doc only for |WupNum|. no template,,,doc1.pdf,,
