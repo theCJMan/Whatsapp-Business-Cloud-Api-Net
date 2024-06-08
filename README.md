@@ -15,6 +15,8 @@ QR Code Message Management: [QR Code Messages for WhatsApp Business](https://dev
 
 WhatsApp Flows: [Setting up WhatsApp Flows](https://developers.facebook.com/docs/whatsapp/flows/gettingstarted/)
 
+WhatsApp Welcome Message: [Setting up Conversational Components](https://developers.facebook.com/docs/whatsapp/cloud-api/phone-numbers/conversational-components)
+
 Webhook Configuration Documentation: [WhatsApp Cloud API Webhook](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#verification-requests)
 
 Authentication Message Documentation: [Create and Send Authentication Message](https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates)
@@ -44,6 +46,7 @@ Take note: Downloading media from the generated Whatsapp media URL will require 
   - [x] Multiple Product Message
   - [x] Authentication Message
   - [x] Flow Message
+  - [x] Conversational Components
 - [x] Receiving Message (via Webhook)
   - [x] Text
   - [x] Media (image, video, audio, document, sticker)
@@ -55,6 +58,7 @@ Take note: Downloading media from the generated Whatsapp media URL will require 
 - [x] WhatsApp Business Management API
   - [x] QR Code Message Management
   - [x] Account Metrics
+  - [X] Template Management
 
 - [x] Sample project
   - [x] Read csv, and send over WhatsApp per record
