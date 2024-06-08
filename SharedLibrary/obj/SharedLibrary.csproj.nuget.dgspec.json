@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj": {}
+    "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj": {
+    "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj",
+        "projectPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\SharedLibrary.csproj",
         "packagesPath": "C:\\Users\\thecj\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",

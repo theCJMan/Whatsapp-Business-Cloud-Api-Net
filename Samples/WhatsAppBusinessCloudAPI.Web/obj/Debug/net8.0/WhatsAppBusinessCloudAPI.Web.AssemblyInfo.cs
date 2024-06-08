@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WhatsAppBusinessCloudAPI.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e09d44b3b3b71c8e8a9d09b5846e788d823449")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59aec2073c6414b9cc856a9e85803a1ce37ffc11")]
 [assembly: System.Reflection.AssemblyProductAttribute("WhatsAppBusinessCloudAPI.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WhatsAppBusinessCloudAPI.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

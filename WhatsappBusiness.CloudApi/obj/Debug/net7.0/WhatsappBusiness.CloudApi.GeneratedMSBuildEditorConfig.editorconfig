@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WhatsappBusiness.CloudApi
-build_property.ProjectDir = C:\Users\thecj\Source\Repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\
+build_property.ProjectDir = C:\Users\thecj\source\repos\Whatsapp-Business-Cloud-Api-Net\WhatsappBusiness.CloudApi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "qb9WaWnQtui2kTg4Pk8UBHqhZZcyfp2w3XFy/5C5RCne7tvfPIEtnBtxNd+DXv9QxJvqhSx7oQ4wytOmL2qXTw==",
+  "dgSpecHash": "Om3JMKv3sYflLeZPeGdpTgQo/66HXwx3lGDLUgQSmqaR0waoZxjqcYj1Xriu0xM1nqWrR6cP3k6hvKBDZgYk3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\Samples\\WhatsAppBusinessCloudAPI.Web\\WhatsAppBusinessCloudAPI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thecj\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512",
+    "C:\\Users\\thecj\\.nuget\\packages\\csvhelper\\32.0.3\\csvhelper.32.0.3.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.2\\microsoft.aspnetcore.jsonpatch.8.0.2.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.2\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.2.nupkg.sha512",
+    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.6\\microsoft.aspnetcore.jsonpatch.8.0.6.nupkg.sha512",
+    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.6\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.6.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -38,7 +38,7 @@
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.http\\8.0.0\\microsoft.extensions.http.8.0.0.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.http.polly\\8.0.1\\microsoft.extensions.http.polly.8.0.1.nupkg.sha512",
+    "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.http.polly\\8.0.6\\microsoft.extensions.http.polly.8.0.6.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -90,8 +90,7 @@
     "C:\\Users\\thecj\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\thecj\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\thecj\\.nuget\\packages\\whatsappbusiness.cloudapi\\1.0.26\\whatsappbusiness.cloudapi.1.0.26.nupkg.sha512"
+    "C:\\Users\\thecj\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

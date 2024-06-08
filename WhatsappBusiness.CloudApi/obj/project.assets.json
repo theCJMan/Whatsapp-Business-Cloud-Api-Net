@@ -73,7 +73,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Http.Polly/6.0.26": {
+      "Microsoft.Extensions.Http.Polly/6.0.31": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "6.0.0",
@@ -401,7 +401,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Http.Polly/8.0.1": {
+      "Microsoft.Extensions.Http.Polly/8.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "8.0.0",
@@ -683,7 +683,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Http.Polly/6.0.26": {
+      "Microsoft.Extensions.Http.Polly/6.0.31": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "6.0.0",
@@ -909,7 +909,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Http.Polly/7.0.15": {
+      "Microsoft.Extensions.Http.Polly/7.0.20": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "7.0.0",
@@ -1204,7 +1204,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Http.Polly/8.0.1": {
+      "Microsoft.Extensions.Http.Polly/8.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "8.0.0",
@@ -1810,10 +1810,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Http.Polly/6.0.26": {
-      "sha512": "QnlvyDQB7cYhfCwWe9x5XBRJtjK6X9Amsnd+0pf/hddHwHCccmr+PNFmtLgtN5rY1DeGlOP3qcU/MN73Wk8d8A==",
+    "Microsoft.Extensions.Http.Polly/6.0.31": {
+      "sha512": "vsu8cJr9HPa5Zc7BntPTXx0VhLA6knolzk78F4TMowoVttg8LtVf6pgUmjxb5NlYdKQEX9wtrRb4uFv0cEbS3w==",
       "type": "package",
-      "path": "microsoft.extensions.http.polly/6.0.26",
+      "path": "microsoft.extensions.http.polly/6.0.31",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1821,14 +1821,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.xml",
-        "microsoft.extensions.http.polly.6.0.26.nupkg.sha512",
+        "microsoft.extensions.http.polly.6.0.31.nupkg.sha512",
         "microsoft.extensions.http.polly.nuspec"
       ]
     },
-    "Microsoft.Extensions.Http.Polly/7.0.15": {
-      "sha512": "TN4z0GBREkJxQdTSDJqzIk9bOAaB8Hk5ezNlyQCYmhwnSTCKxexoUysHmEPe4brS/kjjLc6o4U75h3LLp2x86Q==",
+    "Microsoft.Extensions.Http.Polly/7.0.20": {
+      "sha512": "KkgkBZObGj8wOvoDvSkFHXEdiGEqdsnPFqIb2v1GUxeCSCkLbEtcDdokNZ6IFDlXFjAOCxsBJXq/R9+pFBbVdg==",
       "type": "package",
-      "path": "microsoft.extensions.http.polly/7.0.15",
+      "path": "microsoft.extensions.http.polly/7.0.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1836,14 +1836,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.xml",
-        "microsoft.extensions.http.polly.7.0.15.nupkg.sha512",
+        "microsoft.extensions.http.polly.7.0.20.nupkg.sha512",
         "microsoft.extensions.http.polly.nuspec"
       ]
     },
-    "Microsoft.Extensions.Http.Polly/8.0.1": {
-      "sha512": "UOX9uZLKQsJ6COAHT65jXU2P7Az+6283DxvOO2/+JIjeX6HafgbO8b7U4Ms2bQi2ztp/gIQ1MnNlVWPdJlOOaw==",
+    "Microsoft.Extensions.Http.Polly/8.0.6": {
+      "sha512": "vehhL2uDlr2ovIFMuYcQwXgOCu7QECXnjcRD37luN40Fjqm0C4PDiN0t0dHoyfJp6OgJ+sOYDev5jVMGz4lJnQ==",
       "type": "package",
-      "path": "microsoft.extensions.http.polly/8.0.1",
+      "path": "microsoft.extensions.http.polly/8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1851,7 +1851,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.xml",
-        "microsoft.extensions.http.polly.8.0.1.nupkg.sha512",
+        "microsoft.extensions.http.polly.8.0.6.nupkg.sha512",
         "microsoft.extensions.http.polly.nuspec"
       ]
     },
@@ -2933,32 +2933,32 @@
     ".NETStandard,Version=v2.0": [
       "Microsoft.Extensions.DependencyInjection >= 6.0.1",
       "Microsoft.Extensions.Http >= 6.0.0",
-      "Microsoft.Extensions.Http.Polly >= 6.0.26",
+      "Microsoft.Extensions.Http.Polly >= 6.0.31",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.3"
     ],
     ".NETStandard,Version=v2.1": [
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.Extensions.Http >= 8.0.0",
-      "Microsoft.Extensions.Http.Polly >= 8.0.1",
+      "Microsoft.Extensions.Http.Polly >= 8.0.6",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net6.0": [
       "Microsoft.Extensions.DependencyInjection >= 6.0.1",
       "Microsoft.Extensions.Http >= 6.0.0",
-      "Microsoft.Extensions.Http.Polly >= 6.0.26",
+      "Microsoft.Extensions.Http.Polly >= 6.0.31",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net7.0": [
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Http >= 7.0.0",
-      "Microsoft.Extensions.Http.Polly >= 7.0.15",
+      "Microsoft.Extensions.Http.Polly >= 7.0.20",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net8.0": [
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.Extensions.Http >= 8.0.0",
-      "Microsoft.Extensions.Http.Polly >= 8.0.1",
+      "Microsoft.Extensions.Http.Polly >= 8.0.6",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -2966,13 +2966,13 @@
     "C:\\Users\\thecj\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.26",
+    "version": "1.0.32",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
+      "projectUniqueName": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
       "projectName": "WhatsappBusiness.CloudApi",
-      "projectPath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
+      "projectPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
       "packagesPath": "C:\\Users\\thecj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\obj\\",
+      "outputPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -3032,7 +3032,7 @@
           },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
-            "version": "[6.0.26, )"
+            "version": "[6.0.31, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -3070,7 +3070,7 @@
           },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
-            "version": "[7.0.15, )"
+            "version": "[7.0.20, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -3108,7 +3108,7 @@
           },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.0.6, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -3146,7 +3146,7 @@
           },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
-            "version": "[6.0.26, )"
+            "version": "[6.0.31, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -3185,7 +3185,7 @@
           },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.0.6, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

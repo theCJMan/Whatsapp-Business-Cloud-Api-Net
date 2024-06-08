@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj": {}
+    "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj": {
-      "version": "1.0.26",
+    "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj": {
+      "version": "1.0.32",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
+        "projectUniqueName": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
         "projectName": "WhatsappBusiness.CloudApi",
-        "projectPath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
+        "projectPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\WhatsappBusiness.CloudApi.csproj",
         "packagesPath": "C:\\Users\\thecj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thecj\\Source\\Repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\obj\\",
+        "outputPath": "C:\\Users\\thecj\\source\\repos\\Whatsapp-Business-Cloud-Api-Net\\WhatsappBusiness.CloudApi\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -71,7 +71,7 @@
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[6.0.26, )"
+              "version": "[6.0.31, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -109,7 +109,7 @@
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[7.0.15, )"
+              "version": "[7.0.20, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -147,7 +147,7 @@
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -185,7 +185,7 @@
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[6.0.26, )"
+              "version": "[6.0.31, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -224,7 +224,7 @@
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
